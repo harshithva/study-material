@@ -1,28 +1,26 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+  <fragment>
+    <hr class="top-line" />
+    <div class="container">
+      <Subject />
+    </div>
+  </fragment>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Subject from "./components/Subject.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
+    Subject
   }
-}
+};
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+.top-line {
+  background-color: #34495e;
+  height: 1rem;
 }
 </style>
