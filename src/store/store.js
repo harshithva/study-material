@@ -39,36 +39,8 @@ export const store = new Vuex.Store({
 
         },
         physics: {
-            lessons: [
-                {
-                    name: "Modele-1",
-                    topic: "Electrochemistry and Battery Technology",
-                    notes: ""
-                },
-                {
-                    name: "Module-2",
-                    topic: "Corrosion and Metal Finishing",
-                    notes: ""
-                },
-                {
-                    name: "Module-3",
-                    topic: "Fuels and Solar Energy",
-                    notes: ""
-                },
-                {
-                    name: "Module-4",
-                    topic: "Polymers",
-                    notes: ""
-                },
-                {
-                    name: "Module-5",
-                    topic: "Water Technology and Nanomaterials",
-                    notes: ""
-                }
-            ],
-            subject_code: "15CHE22",
-            name: "Engineering Chemistry"
-        },
+
+        }
     },
     getters: {
         subject: (state) => {
